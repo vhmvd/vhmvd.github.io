@@ -1,0 +1,25 @@
+.navbar {
+  background-color: transparent;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+.navbar a:hover {
+  background-color: #8a4b5b;
+  border-radius: 25px;
+}
+
+
+.navbar a {
+  font-size: 22px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: #fff;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.navbar a.link {
+  background-color: #BF0060;
+  border-radius: 25px;
+}

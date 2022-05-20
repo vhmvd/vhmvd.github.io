@@ -1,0 +1,58 @@
+body{
+  background-color: rgb(24, 5, 48);
+  display: grid;
+}
+
+#g-layout{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  gap: 50px 50px;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+  padding-top: 50px;
+}
+
+#g-layout img{
+  border-radius: 50px;
+  width: 200px;
+  height: 250px;
+}
+
+#g-layout p{
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: white;
+  font-size: 20px;
+  background-color: #BF0060;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.footer {
+  color: #BF0060;
+  background-color: brown;
+  position: fixed;
+  margin-top: auto;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.footer a {
+  text-decoration: none;
+  color: aqua;
+}
+
+.footer span {
+  color: white;
+}
+
+@media screen and (max-height: 855px){
+  .footer{
+    position: relative;
+  }
+}

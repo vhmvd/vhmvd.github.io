@@ -1,0 +1,102 @@
+body {
+  background-image: url(../assets/home.gif);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro h1 {
+  color: #BF0060;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 50px;
+  text-align: center;
+}
+
+.intro h2 {
+  color: #fff;
+  font-weight: normal;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 70px;
+  text-align: center;
+}
+
+.intro h3 {
+  color: aqua;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 28px;
+  text-align: center;
+}
+
+.intro span {
+  color: #BF0060;
+}
+
+.intro img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 200px;
+  height: 200px;
+  width: 200px;
+  padding-top: 10px;
+}
+
+.intro p {
+  padding: 50px;
+  font-size: 22px;
+  position: relative;
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: justify;
+}
+
+.footer {
+  color: #BF0060;
+  background-color: brown;
+  position: fixed;
+  margin-top: auto;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.footer a {
+  text-decoration: none;
+  color: aqua;
+}
+
+.footer span {
+  color: white;
+}
+
+@media screen and (max-width: 690px) {
+  .intro h1 {
+    font-size: 7vw;
+  }
+
+  .intro h2 {
+    font-size: 9vw;
+  }
+
+  .intro h3 {
+    font-size: 4vw;
+  }
+
+  .intro p{
+    font-size: 4vw;
+    padding: 10px;
+  }
+  .intro img{
+    height: 120px;
+    width: 120px;
+  }
+
+}
+
+@media screen and (max-height: 770px){
+  .footer{
+    position: relative;
+  }
+}
