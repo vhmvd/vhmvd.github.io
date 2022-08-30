@@ -88,21 +88,20 @@ body {
     font-size: 4vw;
   }
 
-  .intro p{
+  .intro p {
     font-size: 4vw;
     padding: 15px;
   }
 
-  .intro img{
+  .intro img {
     height: 80px;
     width: 80px;
   }
 
 }
 
-@media screen and (max-height: 770px){
-  .footer{
-    position: relative;
+@media screen and (max-height: 770px) {
+  .footer {
     color: #BF0060;
     background-color: brown;
     position: fixed;
