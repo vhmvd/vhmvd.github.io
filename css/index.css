@@ -72,12 +72,16 @@ body {
 }
 
 @media screen and (max-width: 690px) {
+  .navbar {
+    display: none;
+  }
+
   .intro h1 {
-    font-size: 7vw;
+    font-size: 6vw;
   }
 
   .intro h2 {
-    font-size: 9vw;
+    font-size: 8vw;
   }
 
   .intro h3 {
@@ -86,11 +90,12 @@ body {
 
   .intro p{
     font-size: 4vw;
-    padding: 10px;
+    padding: 15px;
   }
+
   .intro img{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
   }
 
 }
@@ -98,5 +103,14 @@ body {
 @media screen and (max-height: 770px){
   .footer{
     position: relative;
+    color: #BF0060;
+    background-color: brown;
+    position: fixed;
+    margin-top: auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
   }
 }
